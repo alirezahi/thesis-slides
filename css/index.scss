@@ -1,0 +1,114 @@
+.reveal {
+    .slide-number{
+        left: 8px;
+        right: auto !important;
+
+        font-size: 15px !important;
+        a{
+            span{
+                font-family: FaNum !important;
+            }
+            padding: 2rem;
+        }
+    }
+    img{
+        margin: 0 !important;
+    }
+
+    .bullet-list{
+        list-style-type: none !important;
+        li::before{
+            content: "\25A0";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+            color: #28a745; /* Change the color */
+            font-weight: bold; /* If you want it to be bold */
+            display: inline-block; /* Needed to add space between the bullet and the text */
+            width: 1em; /* Also needed for space (tweak if needed) */
+            // margin-left: -1em; /* Also needed for space (tweak if needed) */
+            
+        }
+        li{
+            padding: 10px;
+            font-size: 23px;
+        }
+        li:nth-child(even){
+            &::before{
+
+                color: white !important;
+            }
+        }
+        li:nth-child(even){ 
+            background-color: #1d922e4a; 
+            
+        }
+    }
+
+    .bullet-list-blue{
+        list-style-type: none !important;
+        li::before{
+            content: "\25A0";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+            color: #17a2b8; /* Change the color */
+            font-weight: bold; /* If you want it to be bold */
+            display: inline-block; /* Needed to add space between the bullet and the text */
+            width: 1em; /* Also needed for space (tweak if needed) */
+            // margin-left: -1em; /* Also needed for space (tweak if needed) */
+            
+        }
+        li{
+            padding: 10px;
+            font-size: 20px;
+        }
+        li:nth-child(even){
+            &::before{
+
+                color: white !important;
+            }
+        }
+        li:nth-child(even){ 
+            background-color: #33a2b842; 
+            
+        }
+    }
+
+    .bullet-list-red{
+        list-style-type: none !important;
+        li::before{
+            content: "\25A0";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+            color: #ab1a28; /* Change the color */
+            font-weight: bold; /* If you want it to be bold */
+            display: inline-block; /* Needed to add space between the bullet and the text */
+            width: 1em; /* Also needed for space (tweak if needed) */
+            // margin-left: -1em; /* Also needed for space (tweak if needed) */
+            
+        }
+        li{
+            padding: 10px;
+            font-size: 20px;
+        }
+        li:nth-child(even){
+            &::before{
+
+                color: white !important;
+            }
+        }
+        li:nth-child(even){ 
+            background-color: #ab0a1982; 
+            
+        }
+    }
+}
+
+.text-taleblou{
+    color: #9f70de;
+}
+
+.bg-taleblou{
+    background-color: #9f70de;
+}
+
+.text-bull{
+    color: #ab1a28!important;
+}
+
+.bg-bull{
+    background-color: #ab1a28!important;
+}

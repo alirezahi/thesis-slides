@@ -159,7 +159,7 @@ gulp.task('css-themes', () => gulp.src(['./css/theme/source/*.{sass,scss}'])
         .pipe(sass())
         .pipe(gulp.dest('./dist/theme')))
 
-gulp.task('css-core', () => gulp.src(['css/reveal.scss'])
+gulp.task('css-core', () => gulp.src(['css/reveal.scss', 'css/index.scss'])
     .pipe(sass())
     .pipe(autoprefixer())
     .pipe(minify({compatibility: 'ie9'}))

@@ -1,0 +1,8 @@
+/*!
+* reveal.js 4.0.2
+* https://revealjs.com
+* MIT licensed
+*
+* Copyright (C) 2020 Hakim El Hattab, https://hakim.se
+*/
+.reveal .slide-number{left:8px;right:auto!important;font-size:15px!important}.reveal .slide-number a{padding:2rem}.reveal .slide-number a span{font-family:FaNum!important}.reveal img{margin:0!important}.reveal .bullet-list{list-style-type:none!important}.reveal .bullet-list li::before{content:"\25A0";color:#28a745;font-weight:700;display:inline-block;width:1em}.reveal .bullet-list li{padding:10px;font-size:23px}.reveal .bullet-list li:nth-child(even)::before{color:#fff!important}.reveal .bullet-list li:nth-child(even){background-color:#1d922e4a}.reveal .bullet-list-blue{list-style-type:none!important}.reveal .bullet-list-blue li::before{content:"\25A0";color:#17a2b8;font-weight:700;display:inline-block;width:1em}.reveal .bullet-list-blue li{padding:10px;font-size:20px}.reveal .bullet-list-blue li:nth-child(even)::before{color:#fff!important}.reveal .bullet-list-blue li:nth-child(even){background-color:#33a2b842}.reveal .bullet-list-red{list-style-type:none!important}.reveal .bullet-list-red li::before{content:"\25A0";color:#ab1a28;font-weight:700;display:inline-block;width:1em}.reveal .bullet-list-red li{padding:10px;font-size:20px}.reveal .bullet-list-red li:nth-child(even)::before{color:#fff!important}.reveal .bullet-list-red li:nth-child(even){background-color:#ab0a1982}.text-taleblou{color:#9f70de}.bg-taleblou{background-color:#9f70de}.text-bull{color:#ab1a28!important}.bg-bull{background-color:#ab1a28!important}
